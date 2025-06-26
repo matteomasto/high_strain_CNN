@@ -9,7 +9,7 @@ The model is written using Tensorflow library v2.10.1
 
 ## Instructions
 The model accepts as inputs BCDI patterns centered around the center of mass, resized to a 64x64x64 pixels grid, transformed in logarithmic scale and normalized between 0 and 1. 
-Download the `train.py` file and the `model_weights` of the pretrained version for direct use. 
+Download the `model_paper.h5` for direct use of the pretraied model or `train.py` file for the training on your dataset. 
 
 ## Funding
 I developped the codes during my PhD at the University Grenoble - Alpes and at the ID01 beamline of the European Synchrotron Radiation Facility (ESRF-EBS). The PhD is also part of the ENGAGE programme, thus partially funded by the European Union’s Horizon 2020 research and innovation programme under the Marie Skłodowska-Curie grant agreement number 101034267.
